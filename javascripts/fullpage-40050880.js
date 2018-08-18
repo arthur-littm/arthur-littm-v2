@@ -1,0 +1,1 @@
+new fullpage("#fullpage",{licenseKey:"OPEN-SOURCE-GPLV3-LICENSE",autoScrolling:!0,scrollHorizontally:!0});
