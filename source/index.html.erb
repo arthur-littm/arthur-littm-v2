@@ -1,15 +1,45 @@
----
-title: Le Wagon - Middleman
----
+<div class="flex-container">
+  <div class="left-section">
+    <div class="main-title">
+      <h1>Hi there. </h1>
+      <h1>My name is <strong>Arthur</strong>, I am a <strong>fullstack developer</strong> living in <strong>London</strong>.</h1>
+    </div>
+    <div class="social-links">
+      <a href="https://www.facebook.com/arthur.Iittmann" target="_blank">
+        <%= partial "images/facebook.svg" %>
+      </a>
+      <a href="https://www.instagram.com/arthur_littm/" target="_blank">
+        <%= partial "images/instagram.svg" %>
+      </a>
+      <a href="https://www.linkedin.com/in/arthur-littmann/" target="_blank">
+        <%= partial "images/linkedin.svg" %>
+      </a>
+      <a href="https://www.youtube.com/channel/UCC6p0L9affF4y4iIxB5jWoQ" target="_blank">
+        <%= partial "images/youtube.svg" %>
+      </a>
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+    </div>
+  </div>
+  <div class="right-section">
+    <div id="fullpage">
+      <div class="section welcome">
+        <%= image_tag "welcome.svg", class: "welcome-img" %>
+      </div>
+      <div class="section aboutme">
+        <%= partial "partials/aboutme" %>
+      </div>
+      <div class="section skills">
+        <%= partial "partials/skills" %>
+      </div>
+      <div class="section projects">
+        <%= partial "partials/projects" %>
+      </div>
+      <div class="section reviews">
+        <%= partial "partials/reviews" %>
+      </div>
+      <div class="section personal">
+        <%= partial "partials/personal" %>
+      </div>
+    </div>
   </div>
 </div>

@@ -1,0 +1,41 @@
+.flex-container {
+  display: flex;
+}
+
+.left-section {
+  flex: 0 0 550px;
+  height: 100vh;
+  background-color: $dark-green;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-section {
+  flex: 1 0 auto;
+}
+
+.section {
+  padding: 50px;
+  h2 {
+    text-align: center;
+    span {
+      padding: 0 4px;
+      box-shadow: inset 0px -20px $yellow;
+    }
+  }
+}
+
+
+.welcome {
+  text-align: center;
+  .welcome-img {
+    margin-top: 10vh;
+    width: 500px;
+  }
+}
+
+

@@ -1,0 +1,23 @@
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  img {
+    height: 160px;
+    // margin-left: 40px;
+  }
+  .content {
+    width: 400px;
+  }
+  p {
+    font-weight: lighter;
+  }
+}
+
+.about-info.text-right {
+  img {
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+}
+

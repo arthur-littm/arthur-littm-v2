@@ -1,0 +1,76 @@
+.social-links {
+  display: flex;
+  a {
+    margin-right: 16px;
+  }
+  svg {
+    width: 60px;
+  }
+  transition: .3s;
+  opacity: .3;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+
+.facebook {
+  .bg, .shadow {
+    fill: $dark-green;
+    transition: .5s;
+  }
+  &:hover {
+    .bg {
+      fill: #4E598F;
+    }
+    .shadow {
+      fill: #364270;
+    }
+  }
+}
+
+.instagram {
+  .bg, .shadow {
+    fill: $dark-green;
+    transition: .5s;
+  }
+  &:hover {
+    .bg {
+      fill: #6C27B3;
+    }
+    .shadow {
+      fill: #501A96;
+    }
+  }
+}
+
+
+.linkedin {
+  .bg, .shadow {
+    fill: $dark-green;
+    transition: .5s;
+  }
+  &:hover {
+    .bg {
+      fill: #4376B1;
+    }
+    .shadow {
+      fill: #336699;
+    }
+  }
+}
+
+.youtube {
+  .bg, .shadow {
+    fill: $dark-green;
+    transition: .5s;
+  }
+  &:hover {
+    .bg {
+      fill: #D22215
+    }
+    .shadow {
+      fill: #A81411;
+    }
+  }
+}
